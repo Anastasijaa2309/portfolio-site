@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Anastasija • Junior Software Engineer</title>
+    <title>Anastasija Micevska • Junior Software Engineer</title>
     <meta name="description" content="Anastasija — Junior Software Engineer portfolio: projects, skills, and contact." />
     <meta name="color-scheme" content="light dark" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,6 +40,9 @@
             --btn-text-on-brand: #1b1d1f;
             --link: #b07d4f;       /* warm gold-brown links */
         }
+        .skills-title { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin: 6px 0 4px; }
+.skills-group { display:flex; flex-wrap:wrap; gap:10px; margin-bottom: 8px; }
+
 
         html, body { margin:0; padding:0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); }
         a { color: var(--link); text-decoration: none; }
@@ -130,7 +133,7 @@
 <body>
 <header>
     <div class="container nav">
-        <div class="brand"><span class="dot"></span><span>Anastasija</span></div>
+        <div class="brand"><span class="dot"></span><span>Anastasija Micevska</span></div>
         <div class="nav-actions">
             <button id="themeToggle" class="btn ghost" aria-label="Toggle theme">Toggle theme</button>
             <button id="navToggle" class="nav-toggle" aria-label="Toggle menu">Menu</button>
@@ -171,6 +174,7 @@
             <!-- 1. Portfolio Website -->
             <article class="card project">
                 <h3>Personal Portfolio (This Site)</h3>
+                
                 <p class="lead">A clean, responsive portfolio to showcase projects, skills, and contact. Built mobile‑first with semantic HTML, modern CSS, and a sprinkle of JS for interactivity.</p>
                 <div class="tags">
                     <span class="chip">HTML</span>
@@ -178,6 +182,7 @@
                     <span class="chip">JavaScript</span>
                     <span class="chip">Accessibility</span>
                 </div>
+                
                 <div class="links">
                     <a href="#" aria-disabled="true">Live demo</a>
 <!--                    <a href="#" aria-disabled="true">Source code</a>-->
@@ -202,7 +207,10 @@
 
             <!-- 2. Task Manager / To-Do App -->
             <article class="card project">
-                <h3>Task Buddy</h3>
+            
+                <h3>Task Buddy <span class="tag">In progress</span></h3>
+
+                
                 <p class="lead">A to‑do app with categories and due dates. Persists to LocalStorage and supports quick filtering and keyboard shortcuts.</p>
                 <div class="tags">
                     <span class="chip">React</span>
@@ -211,14 +219,15 @@
                     <span class="chip">State</span>
                 </div>
                 <div class="links">
-                    <a href="#" aria-disabled="true">In the process of building</a>
+                    <!-- <a href="#" aria-disabled="true">In the process of building</a> -->
 <!--                    <a href="#" aria-disabled="true">Source code</a>-->
                 </div>
             </article>
 
             <!-- 3. Weather App with API Integration -->
             <article class="card project">
-                <h3>Weather Window</h3>
+                <!-- <h3>Weather Window</h3> -->
+                <h3>Weather Window <span class="tag">In progress</span></h3>
                 <p class="lead">Search any city to get current conditions and a 3‑day forecast. Includes loading states and error handling for invalid queries.</p>
                 <div class="tags">
                     <span class="chip">JavaScript</span>
@@ -226,14 +235,14 @@
                     <span class="chip">OpenWeather</span>
                 </div>
                 <div class="links">
-                    <a href="#" aria-disabled="true">In the process of building</a>
+                    <!-- <a href="#" aria-disabled="true">In the process of building</a> -->
 <!--                    <a href="#" aria-disabled="true">Source code</a>-->
                 </div>
             </article>
 
             <!-- 4. Mini E‑Commerce Store -->
             <article class="card project">
-                <h3>Mini Shop</h3>
+                <h3>Mini Shop <span class="tag">In progress</span></h3>
                 <p class="lead">Product listing with a simple cart, quantity updates, and checkout simulation. Focus on state management and UX.</p>
                 <div class="tags">
                     <span class="chip">React</span>
@@ -242,14 +251,14 @@
                     <span class="chip">UX</span>
                 </div>
                 <div class="links">
-                    <a href="#" aria-disabled="true">In the process of building</a>
+                    <!-- <a href="#" aria-disabled="true">In the process of building</a> -->
 <!--                    <a href="#" aria-disabled="true">Source code</a>-->
                 </div>
             </article>
 
             <!-- 5. Quiz / Flashcard App -->
             <article class="card project">
-                <h3>QuickQuiz</h3>
+                <h3>QuickQuiz <span class="tag">In progress</span></h3>
                 <p class="lead">Multiple‑choice quiz with score tracking, timer, and progress bar. Option to import questions from a JSON file or trivia API.</p>
                 <div class="tags">
                     <span class="chip">React</span>
@@ -257,14 +266,14 @@
                     <span class="chip">Routing</span>
                 </div>
                 <div class="links">
-                    <a href="#" aria-disabled="true">In the process of building</a>
+                    <!-- <a href="#" aria-disabled="true">In the process of building</a> -->
 <!--                    <a href="#" aria-disabled="true">Source code</a>-->
                 </div>
             </article>
 
             <!-- 6. Real‑time Chat App -->
             <article class="card project">
-                <h3>ChitChat</h3>
+                <h3>ChitChat <span class="tag">In progress</span></h3>
                 <p class="lead">A real‑time chat using WebSockets. Supports rooms, usernames, and message history.</p>
                 <div class="tags">
                     <span class="chip">Node.js</span>
@@ -273,14 +282,14 @@
                     <span class="chip">MongoDB (optional)</span>
                 </div>
                 <div class="links">
-                    <a href="#" aria-disabled="true">In the process of building</a>
+                    <!-- <a href="#" aria-disabled="true">In the process of building</a> -->
 <!--                    <a href="#" aria-disabled="true">Source code</a>-->
                 </div>
             </article>
 
             <!-- 7. AI / API‑powered Project -->
             <article class="card project">
-                <h3>Recipe Finder (AI/API)</h3>
+                <h3>Recipe Finder (AI/API) <span class="tag">In progress</span></h3>
                 <p class="lead">Search recipes by ingredients and get cooking steps. Uses a public recipes API; optional AI helper for substitutions and tips.</p>
                 <div class="tags">
                     <span class="chip">API</span>
@@ -288,7 +297,7 @@
                     <span class="chip">Optional AI</span>
                 </div>
                 <div class="links">
-                    <a href="#" aria-disabled="true">In the process of building</a>
+                    <!-- <a href="#" aria-disabled="true">In the process of building</a> -->
 <!--                    <a href="#" aria-disabled="true">Source code</a>-->
                 </div>
             </article>
@@ -302,71 +311,82 @@
         <h2 id="skills-title" class="section-title">Skills</h2>
         <div class="card" style="padding:16px">
             <div class="skills">
-                <span class="chip">HTML5</span>
-                <span class="chip">CSS3</span>
-                <span class="chip">Responsive Design</span>
-                <span class="chip">JavaScript (ES6+)</span>
-                <span class="chip">React (basics)</span>
-                <span class="chip">Next.js (basics)</span>
-                <span class="chip">Tailwind CSS</span>
-                <span class="chip">REST APIs</span>
-                <span class="chip">Fetch / Async</span>
-                <span class="chip">Git & GitHub</span>
-                <span class="chip">Chrome DevTools</span>
-                <span class="chip">Vercel Deployment</span>
-                <span class="chip">Figma (basics)</span>
-                <span class="chip">Problem Solving</span>
-                <span class="chip">Communication</span>
-                <span class="chip">Adaptability</span>
-            </div>
+                <div class="skills-title">Technical</div>
+                <div class="skills-group">
+                  <span class="chip">HTML5</span>
+                  <span class="chip">CSS3</span>
+                  <span class="chip">Responsive Design</span>
+                  <span class="chip">JavaScript (ES6+)</span>
+                  <span class="chip">React (basics)</span>
+                  <span class="chip">Next.js (basics)</span>
+                  <span class="chip">Tailwind CSS</span>
+                  <span class="chip">REST APIs</span>
+                  <span class="chip">Fetch / Async</span>
+                  <span class="chip">Git & GitHub</span>
+                  <span class="chip">Chrome DevTools</span>
+                  <span class="chip">Vercel Deployment</span>
+                  <span class="chip">Figma (basics)</span>
+                </div>
+              
+                <div class="skills-title">Project & Leadership</div>
+                <div class="skills-group">
+                  <span class="chip">Project Coordination</span>
+                  <span class="chip">Team Leadership</span>
+                  <span class="chip">Group Management</span>
+                  <span class="chip">Event Planning</span>
+                  <span class="chip">Workshop Facilitation</span>
+                  <span class="chip">Non-formal Education Methods</span>
+                </div>
+              
+                <div class="skills-title">Communication</div>
+                <div class="skills-group">
+                  <span class="chip">Intercultural Communication</span>
+                  <span class="chip">Public Speaking</span>
+                  <span class="chip">Report & Documentation Writing</span>
+                  <span class="chip">Problem Solving</span>
+                  <span class="chip">Communication</span>
+                  <span class="chip">Adaptability</span>
+                </div>
+              </div>
+              
         </div>
     </section>
 
+    
+  <!-- Experience (moved above Projects) -->
+  <section id="experience" aria-labelledby="experience-title">
+    <h2 id="experience-title" class="section-title">Experience</h2>
 
+    <div class="card" style="padding:16px; display:grid; gap:14px">
+      <article>
+        <h3 style="margin:0 0 6px">Experience — Non-Formal Education & Erasmus+ (2022–2025)</h3>
+        <p class="lead" style="margin:0 0 8px">
+          I coordinated and led more than <strong>21 international youth exchanges, training courses, and local workshops</strong> within Erasmus+ programs. My work included organizing logistics, preparing educational sessions, guiding groups during international exchanges, and supporting participants in intercultural teamwork and learning. I facilitated activities on topics such as volunteering, rural development, sustainability, emotional well-being, environmental education, leadership, and cultural understanding.
+        </p>
+        <p class="lead" style="margin:0 0 8px">
+          I also assisted in writing project applications, communication with partner organizations across Europe, and managing administrative documentation. I frequently served as <strong>Group Leader</strong> for Macedonian delegations and represented the organization in Portugal, Lithuania, Croatia, Hungary, Poland, Spain, Latvia, Turkey, Serbia, and North Macedonia. Learning outcomes are documented through <strong>multiple Youthpass certificates</strong>.
+        </p>
+      </article>
 
-        <!-- Experience -->
-        <section id="experience" aria-labelledby="experience-title">
-            <h2 id="experience-title" class="section-title">Experience</h2>
-    
-            <div class="card" style="padding:16px; display:grid; gap:14px">
-                <article>
-                    <h3 style="margin:0 0 6px">Organizer • Facilitator • Project Assistant (Non-formal Education)</h3>
-                    <p class="lead" style="margin:0 0 8px">
-                        Led and supported youth projects and workshops in art, culture, environment, and volunteering.
-                        Prepared project applications, coordinated logistics, and handled day-to-day admin.
-                    </p>
-                    <ul style="margin:0; padding-left:18px; color:var(--muted); display:grid; gap:6px">
-                        <li>Erasmus+ Sport <em>Go4Sport Volunteering</em> — assisted education-through-sport initiatives, volunteer recruitment/management, and recognition of skills.</li>
-                        <li>Capacity building <em>Eco-patrols 4 Environmental Goals</em> — designed methods, workshops, and e-learning modules for environmental non-formal education across 5 countries.</li>
-                        <li>Erasmus+ cooperation <em>Seeds of Change: A Rural Youth Volunteer Initiative</em> — organized local activities, international meetings, and partner communication.</li>
-                    </ul>
-                </article>
-    
-                <article>
-                    <h3 style="margin:0 0 6px">Group Leader • Participant — International Exchanges & Training</h3>
-                    <ul style="margin:0; padding-left:18px; color:var(--muted); display:grid; gap:6px">
-                        <li><em>Project Harmony – Challenging Stereotypes through Film</em> — Group Leader (Gdańsk, Poland · Aug 2024; Struga, MK · Nov 2024).</li>
-                        <li><em>BeReels</em> — Group Leader (Gulbene, Latvia · 2023); digital content: short videos, posters, reels.</li>
-                        <li>Youth Exchange (Gulbene, Latvia · Jun–Jul 2024) — led creation of reels/posters for social media.</li>
-                        <li>Training Course <em>Emotional Guidance for Young People</em> — Participant (Cantabria, Spain · Sep–Oct 2023).</li>
-                        <li><em>EU’s Youth in Action</em> — Group Leader (Konya, Turkey · Jul–Aug 2023).</li>
-                        <li><em>You(th) to Save the Planet</em> — Participant (Srima, Croatia · May 2023).</li>
-                        <li><em>Yes4Rural Volunteering</em> — Participant (Serpa, Portugal · Jul 2022).</li>
-                    </ul>
-                </article>
-    
-                <article>
-                    <h3 style="margin:0 0 6px">Certificates</h3>
-                    <p class="lead" style="margin:0 0 8px">Youthpass (multiple projects) — documenting learning outcomes and key competences gained.</p>
-                </article>
-    
-                <article>
-                    <h3 style="margin:0 0 6px">Note</h3>
-                    <p class="lead" style="margin:0">Kreator role ended in <strong>March 2025</strong>.</p>
-                </article>
-            </div>
-        </section>
-    
+      <article>
+        <h3 style="margin:0 0 6px">Key Projects</h3>
+        <ul style="margin:0; padding-left:18px; color:var(--muted); display:grid; gap:6px">
+          <li><strong>Go4Sport Volunteering</strong> (Erasmus+ Sport) — Supported volunteer coordination and skills development through sport-based education activities.</li>
+          <li><strong>Eco-Patrols 4 Environmental Goals</strong> (Capacity Building) — Designed workshop methods and contributed to an educational manual and e-learning materials.</li>
+          <li><strong>Seeds of Change: Rural Youth Volunteers Initiative</strong> (Erasmus+ Cooperation) — Organized local activities, partner meetings, and leader training programs.</li>
+          <li><strong>Youth Exchanges & Training Courses</strong> — Group Leader / Participant in projects on filmmaking, content creation, environmental action, youth participation, emotional support, and rural volunteering.</li>
+        </ul>
+      </article>
+
+      <!-- Achievements snapshot -->
+      <div class="card" style="padding:12px; display:flex; gap:12px; flex-wrap:wrap">
+        <span class="chip">21+ programs led</span>
+        <span class="chip">10+ countries represented</span>
+        <span class="chip">Facilitation • Logistics • Docs</span>
+        <span class="chip">Youthpass certificates</span>
+      </div>
+    </div>
+  </section>
 
 
     <!-- About with graduation image -->
@@ -382,7 +402,7 @@
                     <p>I recently graduated and I'm practicing by building a portfolio, a weather app, and a task manager. I'm excited to join a supportive team where I can keep learning and contribute to real projects.</p>
                 </div>
                 <ul style="margin-top:12px">
-                    <li><span>Location</span><span>Kumanovo, MK</span></li>
+                    <li><span>Location</span><span>Skopje, MK</span></li>
                     <li><span>Looking for</span><span>Intern/Junior roles</span></li>
                     <li><span>Learning</span><span>React & APIs</span></li>
 <!--                    <li><span>Contact</span><span><a href="#contact"></a></span></li>-->
@@ -409,7 +429,7 @@
 </main>
 
 <footer>
-    <div class="container">© <span id="year"></span> Anastasija • Built with HTML/CSS/JS</div>
+    <div class="container">© <span id="year"></span> Anastasija Micevska • Built with HTML/CSS/JS</div>
 </footer>
 
 <!-- Theme chooser modal -->
